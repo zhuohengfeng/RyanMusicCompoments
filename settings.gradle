@@ -1,2 +1,5 @@
-include ':app'
+include ':app', ':module:m_loading', ':module:m_home',
+        ':common:lib_base', ':common:lib_common_ui', ':common:lib_image_loader',
+        ':common:lib_network', ':common:lib_pullalive', ':common:lib_update',
+        ':common:lib_video', ':common:lib_webview'
 rootProject.name='RyanMusicCompoments'
